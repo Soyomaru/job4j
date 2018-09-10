@@ -8,7 +8,7 @@ package ru.job4j.calculate;
 
 public class Calculate{
 
-/** Method main have arguments @param args
+/** Method main only print simple sentence
 */
 	public static void main(String[] args) {
 		System.out.println("Hello World");
