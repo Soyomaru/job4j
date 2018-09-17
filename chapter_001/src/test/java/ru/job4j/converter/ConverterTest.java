@@ -8,14 +8,14 @@ public class ConverterTest {
     @Test
     public void whenRubleToDollarThen() {
         Converter converter = new Converter();
-        int result = converter.rubleToDollar(136);
+        int result = converter.rubleToDollar(150);
         assertThat(result, is(2));
     }
 
     @Test
     public void whenRubleToEuroThen() {
         Converter converter = new Converter();
-        int result = converter.rubleToEuro(240);
+        int result = converter.rubleToEuro(250);
         assertThat(result, is(3));
     }
 
