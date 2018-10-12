@@ -13,4 +13,11 @@ public class MaxTest {
         assertThat(result, is(8));
     }
 
+    @Test
+    public void whenThreeDigits() {
+        Max maxim = new Max();
+        int result = maxim.max(9, 1, 3);
+        assertThat(result, is(9));
+    }
+
 }
