@@ -36,7 +36,7 @@ public class Triangle {
      * @return существует ли треугольник.
      */
     private boolean exist(double ab, double ac, double bc) {
-        return ab + bc > ac | ab + ac > bc | ac + bc > ab ? true : false ;
+        return ab + bc > ac && ab + ac > bc && ac + bc > ab ? true : false ;
     }
 
     /**
