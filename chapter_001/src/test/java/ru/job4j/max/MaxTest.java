@@ -16,8 +16,8 @@ public class MaxTest {
     @Test
     public void whenThreeDigits() {
         Max maxim = new Max();
-        int result = maxim.max(9, 1, 3);
-        assertThat(result, is(9));
+        int result = maxim.max(6, 1, 7);
+        assertThat(result, is(7));
     }
 
 }
