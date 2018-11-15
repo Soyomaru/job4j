@@ -29,8 +29,8 @@ public class Paint {
     public String pyramid(int height) {
         return this.loopBy(
                 height,
-                2 * height -1,
-                (row, column) -> row >= height - column -1 && row + height -1 >= column
+                2 * height - 1,
+                (row, column) -> row >= height - column - 1 && row + height - 1 >= column
         );
     }
 
@@ -38,7 +38,7 @@ public class Paint {
         StringBuilder screen = new StringBuilder();
         for (int row = 0; row != height; row++) {
             for (int column = 0; column != weight; column++) {
-                if (predict.test(row,column)) {
+                if (predict.test(row, column)) {
                     screen.append("^");
                 } else {
                     screen.append(" ");
